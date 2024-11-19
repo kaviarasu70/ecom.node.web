@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Gridwall</title>
+</head>
+<body>
+    <header>
+        <h1>Product Gridwall</h1>
+        <div class="cart-info">
+            <a href="/cart">Cart (<span id="cart-count">0</span>)</a>
+        </div>
+    </header>
+
+    <div class="filters">
+        <label for="category-filter">Category:</label>
+        <select id="category-filter">
+            <option value="all">All</option>
+            <!-- Categories will be dynamically populated -->
+        </select>
+
+        <label for="sub-category-filter">Sub-Category:</label>
+        <select id="sub-category-filter">
+            <option value="all">All</option>
+            <!-- Sub-categories will be dynamically populated -->
+        </select>
+    </div>
+
+    <input type="text" id="search-box" placeholder="Search products">
+    <div id="gridwall"></div>
+
+    <script src="/js/gridwall.js"></script>
+</body>
+</html>
