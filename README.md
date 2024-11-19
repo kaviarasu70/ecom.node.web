@@ -1,7 +1,11 @@
 # ecom.node.web
 
 prerequisites
-    Install latest node 
+    Install latest node.
+    
+    https://nodejs.org/en
+    
+    
 
 How run the project 
 C:\Users\kavi\Documents\kavi\oneproject\ecom.node.web>node app.js
